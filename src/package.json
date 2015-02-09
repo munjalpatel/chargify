@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/munjalpatel/chargify/issues"
   },
-  "homepage": "https://github.com/munjalpatel/chargify"
+  "homepage": "https://github.com/munjalpatel/chargify",
+  "devDependencies": {
+    "chai": "^1.10.0"
+  }
 }
