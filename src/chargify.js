@@ -4,4 +4,8 @@ function Chargify(options) {
   if (!options.api_key) throw new Error('No API key specified');
 }
 
+Chargify.prototype.request = function (resource) {
+  if (!resource) throw new Error('No resource specified');
+};
+
 module.exports = Chargify;
