@@ -9,4 +9,10 @@ describe('Chargify', function () {
   it('should throw an error if no subdomain is specified', function () {
     expect(chargify.bind(chargify, {})).to.throw(/No subdomain specified/);
   });
+
+  it('should throw an error if no API key is specified', function () {
+    expect(chargify.bind(chargify, {
+      subdomain: 'chargify-test'
+    })).to.throw(/No API key specified/);
+  });
 });
