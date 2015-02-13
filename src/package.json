@@ -1,6 +1,6 @@
 {
   "name": "chargify-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Chargify wrapper for node",
   "main": "chargify.js",
   "scripts": {

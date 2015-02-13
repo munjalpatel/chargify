@@ -15,7 +15,7 @@ Chargify wrapper for node
 ### Usage
 
 ```javascript
-  var Chargify = require('chargify');
+  var Chargify = require('chargify-node');
 
   var options = {
     api_key: process.env.CHARGIFY_API_KEY,
@@ -23,7 +23,7 @@ Chargify wrapper for node
   };
 
   var chargify = new Chargify(options);
-  spo.request({
+  chargify.request({
     resource: 'customers',
     method: 'GET'
   }, function (err, response, body) {
@@ -31,7 +31,7 @@ Chargify wrapper for node
 
     console.log('Response:');
     console.log(response);
-    
+
     console.log('Body:');
     console.log(body);
   });
