@@ -10,7 +10,7 @@ Chargify wrapper for node
 - Request
 
 ### Installation
-`npm install chargify --save`
+`npm install chargify-node --save`
 
 ### Usage
 
