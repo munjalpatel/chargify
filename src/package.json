@@ -1,5 +1,5 @@
 {
-  "name": "chargify",
+  "name": "chargify-node",
   "version": "0.0.1",
   "description": "Chargify wrapper foe node",
   "main": "chargify.js",
