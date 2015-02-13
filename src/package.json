@@ -1,0 +1,28 @@
+{
+  "name": "chargify",
+  "version": "0.0.1",
+  "description": "Chargify wrapper foe node",
+  "main": "chargify.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/munjalpatel/chargify"
+  },
+  "keywords": [
+    "chargify"
+  ],
+  "author": "Munjal Patel <munjal@munpat.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munjalpatel/chargify/issues"
+  },
+  "homepage": "https://github.com/munjalpatel/chargify",
+  "devDependencies": {
+    "chai": "^1.10.0"
+  },
+  "dependencies": {
+    "request": "^2.53.0"
+  }
+}
