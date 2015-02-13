@@ -12,5 +12,12 @@ describe('Chargify', function () {
       var chargify = new Chargify(options);
       expect(chargify.request.bind(chargify)).to.throw(/No resource specified/);
     });
+
+    it('should throw an error if no method is specified', function () {
+      var chargify = new Chargify(options);
+      expect(chargify.request.bind(chargify, {
+        resource: 'test'
+      })).to.throw(/No method specified/);
+    });
   });
 });
