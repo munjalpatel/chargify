@@ -1,7 +1,7 @@
 {
   "name": "chargify-node",
   "version": "0.0.1",
-  "description": "Chargify wrapper foe node",
+  "description": "Chargify wrapper for node",
   "main": "chargify.js",
   "scripts": {
     "test": "mocha test"
